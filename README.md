@@ -19,9 +19,10 @@ The solved puzzle is saved as an image in the root directory.
 
 ## To Do
 
-- Improve the model to reorient the input images and detect numbers correctly
+- Improve the model to reorient the input images (perspective transformations) and detect numbers correctly
     - Currently only straight images are solved successsfully
     - Sometimes the model either cannot detect the numbers in the cell or predict it incorrect
+- Solve puzzles from live camera feed (partially working !)
 - Create a package
 
 ---
