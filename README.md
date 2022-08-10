@@ -12,17 +12,19 @@ A python script to solve sudoku puzzles using OpenCV. The script uses a CNN mode
 
 The solved puzzle is saved as an image in the root directory.
 
+#### *Example input:*<br>
+![example_input](/test_examples/level_easy_0.png)
 
-![example_input](/test_examples/level_easy_0.png) ![example_input](solved_level_easy_0.png)
+#### *Example output:*<br>
+![example_input](solved_level_easy_0.png)
 
-*(left image - example input ; right image - example output )*
 
 ## To Do
 
 - Improve the model to reorient the input images (perspective transformations) and detect numbers correctly
     - Currently only straight images are solved successsfully
     - Sometimes the model either cannot detect the numbers in the cell or predict it incorrect
-- Solve puzzles from live camera feed (partially working !)
+- Solve puzzles from live camera feed or from video file (partially working !)
 - Create a package
 
 ---
