@@ -8,11 +8,11 @@ from imutils.perspective import four_point_transform
 from skimage.segmentation import clear_border
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.image import img_to_array
-from sudokusolver_norvig_algo import solve, parse_grid, grid_values, squares
+from sudokusolver_norvig_algo import solve, squares
 
 
 # MODEL = load_model('/content/drive/MyDrive/Colab Notebooks/OpenCV Sudoku Solver/keras_MNIST_trained.h5')
-MODEL = load_model('G:\My Drive\Colab Notebooks\OpenCV Sudoku Solver\keras_MNIST_trained.h5')
+MODEL = load_model('keras_MNIST_trained.h5')
 
 def prepare_img(img):
   img = cv2.resize(img, (28, 28)).astype("float") / 255.0

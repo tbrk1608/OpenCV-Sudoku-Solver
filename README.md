@@ -8,9 +8,10 @@ A python script to solve sudoku puzzles using OpenCV. The script uses a CNN mode
 ```git clone git@github.com:tbrk1608/OpenCV-Sudoku-Solver.git```
 
 - execute <br>
+```cd src ```
 ```python opencv_sudokusolver.py --path test_examples\level_easy_0.png```
 
-The solved puzzle is saved as an image in the root directory.
+The solved puzzle is saved as an image in the src directory.
 
 #### *Example input:*<br>
 ![example_input](/test_examples/level_easy_0.png)
