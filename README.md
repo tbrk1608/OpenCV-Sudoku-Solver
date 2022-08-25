@@ -14,10 +14,10 @@ A python script to solve sudoku puzzles using OpenCV. The script uses a CNN mode
 The solved puzzle is saved as an image in the src directory.
 
 #### *Example input:*<br>
-![example_input](/test_examples/level_easy_0.png)
+![example_input](/src/test_examples/level_easy_0.png)
 
 #### *Example output:*<br>
-![example_input](solved_level_easy_0.png)
+![example_input](/src/solved_level_easy_0.png)
 
 
 ## To Do
